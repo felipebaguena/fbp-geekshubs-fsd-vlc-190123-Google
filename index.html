@@ -1,50 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Inicio de Google</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <!-- Cabecera -->
     <div id="header">
-        <div id="top-l">
-            <a href="https://about.google/?fg=1&utm_source=google-ES&utm_medium=referral&utm_campaign=hp-header">Sobre Google</a>
-            <a href="https://store.google.com/ES/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=es-ES&pli=1">Tienda</a>
-            
+      <div id="top-l">
+        <a
+          class="top-l-1"
+          href="https://about.google/?fg=1&utm_source=google-ES&utm_medium=referral&utm_campaign=hp-header"
+          >Sobre Google</a
+        >
+        <a
+          class="top-l-1"
+          href="https://store.google.com/ES/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=es-ES&pli=1"
+          >Tienda</a
+        >
+      </div>
+      <div id="top-r">
+        <a class="top-l-1" href="https://www.google.com/intl/es/gmail/about/"
+          >Gmail</a
+        >
+        <a class="top-l-1" href="https://www.google.es/imghp?hl=es&ogbl"
+          >Imágenes</a
+        >
+
+        <div class="grid">
+          <a id="grid" href="https://www.google.com/account/about/?hl=es"
+            ><img id="grid-icon" src="./img/grid-3x3-gap-fill.svg"
+          /></a>
         </div>
-        <div id="top-r">
-            <a href="https://www.google.com/intl/es/gmail/about/">Gmail</a>
-            <a href="https://www.google.es/imghp?hl=es&ogbl">Imágenes</a>
-            <svg id=icon-grid xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid-3x3-gap-fill" viewBox="0 0 16 16">
-                <path d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2z"/>
-            </svg>
-            <button id="login-button">
-                <a class="login-button-text" href="https://accounts.google.com/v3/signin/identifier?dsh=S-687551789%3A1674130479371279&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAZAmgQ&hl=es&passive=true&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWnogHfbwU0chrCURJyKdljcE_dbQdXtofggmv1JvBROOiAUJ1ALSgyDCDnmrulnuOXaqerb-bjIWg">Iniciar sesión</a>
-            </button>
-        </div>
+        <button id="login-button">
+          <a
+            class="login-button-text"
+            href="https://accounts.google.com/v3/signin/identifier?dsh=S-687551789%3A1674130479371279&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAZAmgQ&hl=es&passive=true&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWnogHfbwU0chrCURJyKdljcE_dbQdXtofggmv1JvBROOiAUJ1ALSgyDCDnmrulnuOXaqerb-bjIWg"
+            >Iniciar sesión</a
+          >
+        </button>
+      </div>
     </div>
     <!-- Cuerpo -->
     <div id="main">
-        <div id="logo-container">
-            <img id="google-logo" src="./img/google-logo.png" alt="g-logo">
-            <div class="search-container">
-                <input id="box-search" type="text">
-            </div>
+      <div id="logo-container">
+        <img id="google-logo" src="./img/google-logo.png" alt="g-logo" />
+        <div class="search-container">
+          <img id="search-icon" src="./img/search-logo-1.png" />
+          <input id="box-search" type="text" />
+          <img id="mic-logo" src="./img/mic-con.png" alt="m-logo" />
+          <img
+            id="lens-logo"
+            src="./img/Google_Lens_2021.svg"
+            alt="google-lens"
+          />
         </div>
-        <div id="buttons"></div>
-        <div id="lang"></div>
+      </div>
     </div>
+      <div id="buttons">
+        <button class="search-button">
+          <a id="search-w-google" href="https://www.google.es/webhp"
+            >Buscar en Google</a
+          >
+        </button>
+        <button class="search-button">
+          <a id="lucky-search" href="https://www.google.com/doodles"
+            >Voy a tener suerte</a
+          >
+        </button>
+      </div>
+      <div id="lang">
+        <div>
+          <p>Ofrecido por Google en:</p>
+        </div>
+        <a class="l-cge" href="https://www.google.es/">català</a>
+        <a class="l-cge" href="https://www.google.es/">galego</a>
+        <a class="l-cge" href="https://www.google.es/">euskera</a>
+        </div>
     <!-- Pie de página -->
     <div id="footer">
-        <div id="f-top"></div>
-        <div id="f-bottom">
-            <div id="fb-left"></div>
-            <div id="fb-center"></div>
-            <div id="fb-right"></div>
+      <div id="f-top">
+        <div id="esp"><p class="footer-text">España</p></div>
+      </div>
+      <div class="f-bottom">
+        <div id="fb-left">
+            <a class="b-text" href="https://www.google.com/intl/es_es/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a>
+            <a class="b-text" href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Empresa</a>
+            <a class="b-text" href="https://google.com/search/howsearchworks/?fg=1">Cómo funciona la Búsqueda</a>
         </div>
+        <div id="fb-center">
+            <img src="./img/hoja.png" id="leaf" alt="bottom-leaf">
+            <a class="b-text" href="https://google.com/search/howsearchworks/?fg=1">Emisión de carbono desde 2007</a>
+        </div>
+        <div id="fb-right">
+            <a class="b-text" href="https://policies.google.com/privacy?hl=es&fg=1">Privacidad</a>
+            <a class="b-text" href="https://policies.google.com/terms?hl=es&fg=1">Términos</a>
+            <a class="b-text" href="https://google.com/search/howsearchworks/?fg=1">Configuración</a>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
